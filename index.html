@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo-Guardian | Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Echo-Guardian System</h1>
+        <p>Upload visual for immediate hazard analysis.</p>
+        
+        <input type="file" id="mediaUpload" accept="image/*,video/*">
+        <button id="analyzeBtn" onclick="analyzeMedia()">Execute Analysis</button>
+
+        <div class="output-panel" id="outputPanel">
+            <h3>Visual Confirmation:</h3>
+            <div class="image-container">
+                <img id="resultImage" src="" alt="YOLO Analysis">
+            </div>
+            
+            <h3>Audio Transmission Log:</h3>
+            <div class="script-box" id="scriptText"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
