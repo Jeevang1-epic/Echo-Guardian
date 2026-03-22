@@ -1,0 +1,63 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.container {
+    width: 80%;
+    max-width: 800px;
+    background: #161b22;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #30363d;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+h1 {
+    text-transform: uppercase;
+    border-bottom: 2px solid #58a6ff;
+    padding-bottom: 10px;
+}
+input[type="file"] {
+    margin: 20px 0;
+    padding: 10px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+    width: 100%;
+}
+button {
+    background-color: #238636;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: #2ea043;
+}
+.output-panel {
+    margin-top: 30px;
+    display: none;
+}
+.image-container img {
+    max-width: 100%;
+    border: 2px solid #ff7b72;
+    border-radius: 6px;
+}
+.script-box {
+    background: #0d1117;
+    padding: 15px;
+    border-left: 4px solid #f0883e;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #ff7b72;
+}
